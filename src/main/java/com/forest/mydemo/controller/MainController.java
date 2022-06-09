@@ -14,6 +14,6 @@ public class MainController {
 
     @GetMapping("/test")
     public String get () {
-        return "Hello Jenkins 666 !!!";
+        return "Jenkins构建项目成功！";
     }
 }
